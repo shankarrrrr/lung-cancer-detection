@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+lung_ai_env/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# TensorFlow / Model files
+*.h5
+*.pb
+*.ckpt
+*.index
+*.meta
+*.data-*
+saved_model/
+
+# Data directories (large files)
+data/raw/**
+data/processed/**
+*.dcm
+*.dicom
+
+# Keep directory structure but ignore contents
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/splits/.gitkeep
+!data/annotations/.gitkeep
+
+# Artifacts and checkpoints
+artifacts/**
+checkpoints/**
+!artifacts/.gitkeep
+!checkpoints/.gitkeep
+
+# Logs
+logs/**
+*.log
+!logs/.gitkeep
+
+# Uploads and static files
+uploads/**
+static/**
+!uploads/.gitkeep
+!static/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Results
+results/
+output/
